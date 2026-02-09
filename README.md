@@ -1,6 +1,7 @@
 # 📝 Mini REST API (FastAPI)
 
 A lightweight REST API built with FastAPI demonstrating clean backend structure, CRUD operations, validation, seeding, and automated testing. This project is part of my engineering portfolio showcasing practical backend fundamentals, Python skills, and professional documentation.
+
 ---
 
 ## 🚀 Features
@@ -101,3 +102,4 @@ Includes tests:
 - Authentication layer
 - Dockerfile + containerization
 - CI workflow for automated testing
+
