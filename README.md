@@ -23,11 +23,17 @@ A lightweight REST API built with FastAPI demonstrating clean backend structure,
 mini-rest-api/
 │
 ├── app/
-│   └── main.py
+|   ├── main.py
+|   ├── routes.py
+|   ├── models.py  
+│   └── storage.py
 │
-├── logs/
-│   └── system_report.log   # Auto‑generated
+├── tests/
+|   ├── factories.py
+│   └── test_notes.py
 │
+├── seed.py
+├── requirements.txt 
 └── README.md
 ```
 
@@ -102,4 +108,5 @@ Includes tests:
 - Authentication layer
 - Dockerfile + containerization
 - CI workflow for automated testing
+
 
